@@ -96,6 +96,14 @@ class _HomeScreenState extends State<HomeScreen> with AutomaticKeepAliveClientMi
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              const SizedBox(height: 5),
+              const Text(
+                "Click 'Try Again' 4-5 times",
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
               const SizedBox(height: 12),
               Text(
                 _error!,
